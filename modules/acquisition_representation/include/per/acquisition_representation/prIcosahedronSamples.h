@@ -38,7 +38,7 @@ public:
    * \brief Constructor of the icosahedron samples class. Set the path to `.xml`
    * files containing the coordinates of the icosahedron samples
    */
-  prIcosahedronSamples(std::string coordsPath = PER_SI_DIR);//"/home/guillaume/Develop/PeR-ws/libPeR/data/subdividedIcosahedron/");
+  prIcosahedronSamples(std::string coordsPath = PER_SI_DIR);
 
   /*!
    * \fn loadDelaunaySamples(unsigned int subdivLevels)

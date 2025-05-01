@@ -29,3 +29,8 @@ pr_glob_module_sources()
 pr_module_include_directories()
 pr_create_module()
 #pr_add_tests()
+
+
+target_compile_definitions(per_acquisition_representation PUBLIC
+    PER_SI_DIR="${PER_BINARY_DIR}/data/subdividedIcosahedron/"
+)

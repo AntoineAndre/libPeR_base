@@ -346,6 +346,32 @@ public:
     return 0;
   }
 
+  int toVectorsAndIntensities(std::vector<std::vector<double>> &vecint)
+  {
+    if (nbSamples == 0)
+      return -1;
+
+    vecint.reserve(nbSamples);
+
+    T *pt_bitmap = bitmap;
+    prCartesian3DPointVec *pt_XS = (prCartesian3DPointVec *)ge;
+
+
+    for (unsigned long ns = 0; ns < nbSamples; ns++, pt_XS++, pt_bitmap++) 
+    {
+      std::vector<double> vi;
+      vi.reserve(4);
+      vi.push_back(pt_XS->get_X());
+      vi.push_back(pt_XS->get_Y());
+      vi.push_back(pt_XS->get_Z());
+      vi.push_back(*pt_bitmap);
+
+      vecint.push_back(vi);
+    }
+
+    return 0;
+  }
+
   /*!
    * \fn int buildFromEquiRect(vpImage<T> & I, prEquirectangular & equiCam,
    * vpImage<unsigned char> *Mask = NULL) \brief Builds the pixels map of the
