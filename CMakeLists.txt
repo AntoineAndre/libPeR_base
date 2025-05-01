@@ -30,7 +30,7 @@ endif()
 
 project(PER C CXX)
 
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.10)
 
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake")
 
@@ -42,7 +42,7 @@ pr_clear_vars(PERModules_TARGETS)
 # PER version number.  An even minor number corresponds to releases.
 set(PER_VERSION_MAJOR "0")
 set(PER_VERSION_MINOR "6")
-set(PER_VERSION_PATCH "0")
+set(PER_VERSION_PATCH "1")
 set(PER_VERSION "${PER_VERSION_MAJOR}.${PER_VERSION_MINOR}.${PER_VERSION_PATCH}")
 set(PROJECT_FULL_VERSION ${PER_VERSION})
 # Package revision number
@@ -347,8 +347,6 @@ ENDIF()
 # Modules
 #----------------------------------------------------------------------
 include(cmake/PERModule.cmake)
-
-add_definitions(-DPER_SI_DIR="${PER_DIR}/data/subdividedIcosahedron/")
 
 # process subdirectories
 add_subdirectory(modules)
