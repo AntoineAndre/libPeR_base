@@ -121,6 +121,8 @@ set(OS ${CMAKE_SYSTEM_NAME})
 PR_OPTION(BUILD_SHARED_LIBS  "" "" "Build PER shared libraries (.dll/.so) instead of static ones (.lib/.a)" "" ON)
 # Build examples as an option.
 PR_OPTION(BUILD_EXAMPLES  "" "" "Build PER examples" "" ON)
+# Build documentation as an option.
+PR_OPTION(BUILD_DOCUMENTATION "Build documentation" ON)
 # Build examples as an option.
 PR_OPTION(BUILD_TESTS  "" "" "Build PER tests" "" ON)
 PR_OPTION(BUILD_COVERAGE "" "" "Enables test coverage" "" OFF IF (BUILD_TESTS AND CMAKE_COMPILER_IS_GNUCXX AND NOT BUILD_SHARED_LIBS AND CMAKE_BUILD_TYPE MATCHES "Debug"))
@@ -169,7 +171,7 @@ if(WIN32)
     PR_OPTION(USE_XML2        XML2        ""    "Include xml support"          "" ON)
     PR_OPTION(USE_ICONV ICONV "" "Include iconv support" "" ON)
 endif()
-set(OpenCV_DIR "/usr/lib/x86_64-linux-gnu/cmake/opencv4")
+# set(OpenCV_DIR "/usr/lib/x86_64-linux-gnu/cmake/opencv4")
 PR_OPTION(USE_OPENCV      OpenCV      QUIET "Include OpenCV support" "OpenCV_DIR;OpenCV_FOUND;OPENCV_FOUND" ON)
 # To control Pioneer mobile robots, under UNIX we need Aria, pthread, rt and dl 3rd party libraries
 #PR_OPTION(USE_ARIA        ARIA         ""    "Include aria support"         "" ON)
@@ -180,32 +182,41 @@ PR_OPTION(USE_OPENCV      OpenCV      QUIET "Include OpenCV support" "OpenCV_DIR
 # Try to find doxygen for documentation generation
 # Use "make per_doc" target to generate the documentation
 #----------------------------------------------------------------------
-find_package(Doxygen)
-if(DOXYGEN_FOUND)
-  set(PER_HAVE_DOXYGEN "yes")        # for header prConfig.h
-  set(PER_HAVE_DOXYGEN_FOUND "yes")  # for PER-third-party.txt
-  ## we need latex for doxygen because of the formulas
-  find_package(LATEX)
-  if(NOT LATEX_COMPILER)
-    message(STATUS "latex command LATEX_COMPILER not found but usually required. You will probably get warnings and user interaction on doxy run.")
-  endif()
-  if(NOT MAKEINDEX_COMPILER)
-    message(STATUS "makeindex command MAKEINDEX_COMPILER not found but usually required.")
-  endif()
-  if(NOT DVIPS_CONVERTER)
-    message(STATUS "dvips command DVIPS_CONVERTER not found but usually required.")
-  endif()
+# find_package(Doxygen)
+# if(DOXYGEN_FOUND)
+#   set(PER_HAVE_DOXYGEN "yes")        # for header prConfig.h
+#   set(PER_HAVE_DOXYGEN_FOUND "yes")  # for PER-third-party.txt
+#   ## we need latex for doxygen because of the formulas
+#   find_package(LATEX)
+#   if(NOT LATEX_COMPILER)
+#     message(STATUS "latex command LATEX_COMPILER not found but usually required. You will probably get warnings and user interaction on doxy run.")
+#   endif()
+#   if(NOT MAKEINDEX_COMPILER)
+#     message(STATUS "makeindex command MAKEINDEX_COMPILER not found but usually required.")
+#   endif()
+#   if(NOT DVIPS_CONVERTER)
+#     message(STATUS "dvips command DVIPS_CONVERTER not found but usually required.")
+#   endif()
 
-  configure_file(${PER_SOURCE_DIR}/doc/config-doxygen.in
-    ${PER_DOC_DIR}/config-doxygen
-    @ONLY )
+#   configure_file(${PER_SOURCE_DIR}/doc/config-doxygen.in
+#     ${PER_DOC_DIR}/config-doxygen
+#     @ONLY )
 
-  configure_file(${PER_SOURCE_DIR}/doc/mainpage.doc.in
-    ${PER_DOC_DIR}/mainpage.doc
-    @ONLY )
+#   configure_file(${PER_SOURCE_DIR}/doc/mainpage.doc.in
+#     ${PER_DOC_DIR}/mainpage.doc
+#     @ONLY )
+# else()
+#   set(PER_HAVE_DOXYGEN "no")        # for header prConfig.h
+#   set(PER_HAVE_DOXYGEN_FOUND "no")  # for PER-third-party.txt
+# endif()
+
+
+# documentation generation (doxygen)
+if (BUILD_DOCUMENTATION)
+  message(STATUS "Generating documentation.")
+  add_subdirectory(doc)
 else()
-  set(PER_HAVE_DOXYGEN "no")        # for header prConfig.h
-  set(PER_HAVE_DOXYGEN_FOUND "no")  # for PER-third-party.txt
+  message(STATUS "Skiping documentation.")
 endif()
 
 # ----------------------------------------------------------------------------

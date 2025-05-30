@@ -1,4 +1,4 @@
-name: CI of Vernier
+name: CI of LibPeR
 
 on:
   push:
