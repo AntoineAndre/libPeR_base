@@ -211,18 +211,6 @@ PR_OPTION(USE_OPENCV      OpenCV      QUIET "Include OpenCV support" "OpenCV_DIR
 # endif()
 
 
-###############################################################################
-# documentation generation (doxygen)
-if (BUILD_DOCUMENTATION)
-  message(STATUS "Adding doxygen documentation.")
-  set(PER_HAVE_DOXYGEN "yes")        # for header prConfig.h
-  set(PER_HAVE_DOXYGEN_FOUND "yes")  # for PER-third-party.txt
-  add_subdirectory(doc)
-else(BUILD_DOCUMENTATION)
-  message(STATUS "Skiping documentation.")
-endif(BUILD_DOCUMENTATION)
-
-
 # ----------------------------------------------------------------------------
 # Solution folders:
 # ----------------------------------------------------------------------------
@@ -527,3 +515,15 @@ mark_as_advanced(PER_INCLUDE_DIRS)
 if(BUILD_EXAMPLES)
   add_subdirectory(example)
 endif()
+
+
+###############################################################################
+# documentation generation (doxygen)
+if (BUILD_DOCUMENTATION)
+  message(STATUS "Adding doxygen documentation.")
+  set(PER_HAVE_DOXYGEN "yes")        # for header prConfig.h
+  set(PER_HAVE_DOXYGEN_FOUND "yes")  # for PER-third-party.txt
+  add_subdirectory(doc)
+else(BUILD_DOCUMENTATION)
+  message(STATUS "Skiping documentation.")
+endif(BUILD_DOCUMENTATION)
