@@ -25,7 +25,7 @@ jobs:
         compiler: ${{ matrix.compiler }}
         build-type: ${{ matrix.build-type }}
         ubuntu: |
-          apt: cmake libeigen3-dev libgtest-dev wget unzip libqhull-dev libopencv-dev doxygen doxygen-latex libvisp-dev
+          apt: cmake libeigen3-dev libgtest-dev wget unzip libqhull-dev doxygen doxygen-latex libopencv-dev libvisp-dev
         macos: |
           brew: autoconf automake cmake eigen libtool libmatio opencv fftw
     
@@ -34,6 +34,7 @@ jobs:
       with:
         compiler: ${{ matrix.compiler }}
         build-type: ${{ matrix.build-type }}
+        options: '-DBUILD_EXAMPLES:BOOL=OFF'
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
