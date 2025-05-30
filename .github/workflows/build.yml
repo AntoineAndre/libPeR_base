@@ -37,9 +37,9 @@ jobs:
   
     - name: build doc
       run: |
-      ls
-      cd ./build
-      make html-doc
+        ls
+        cd ./build
+        make html-doc
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
