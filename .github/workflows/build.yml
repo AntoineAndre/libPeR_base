@@ -36,7 +36,10 @@ jobs:
         build-type: ${{ matrix.build-type }}
   
     - name: build doc
-      run: make html-doc
+      run: |
+      ls
+      cd ./build
+      make html-doc
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
