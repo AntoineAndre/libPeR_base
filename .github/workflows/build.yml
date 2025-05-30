@@ -34,11 +34,13 @@ jobs:
       with:
         compiler: ${{ matrix.compiler }}
         build-type: ${{ matrix.build-type }}
+  
+    - name: build doc
+      run: make html-doc
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       if: github.ref == 'refs/heads/main' && matrix.os == 'ubuntu-latest'
-      run: make html-doc
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build/html
