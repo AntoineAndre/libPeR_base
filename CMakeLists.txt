@@ -122,7 +122,7 @@ PR_OPTION(BUILD_SHARED_LIBS  "" "" "Build PER shared libraries (.dll/.so) instea
 # Build examples as an option.
 PR_OPTION(BUILD_EXAMPLES  "" "" "Build PER examples" "" ON)
 # Build documentation as an option.
-PR_OPTION(BUILD_DOCUMENTATION "Build documentation" ON)
+PR_OPTION(BUILD_DOCUMENTATION  "" "" "Build PER documentation" "" ON)
 # Build examples as an option.
 PR_OPTION(BUILD_TESTS  "" "" "Build PER tests" "" ON)
 PR_OPTION(BUILD_COVERAGE "" "" "Enables test coverage" "" OFF IF (BUILD_TESTS AND CMAKE_COMPILER_IS_GNUCXX AND NOT BUILD_SHARED_LIBS AND CMAKE_BUILD_TYPE MATCHES "Debug"))
@@ -211,13 +211,17 @@ PR_OPTION(USE_OPENCV      OpenCV      QUIET "Include OpenCV support" "OpenCV_DIR
 # endif()
 
 
+###############################################################################
 # documentation generation (doxygen)
 if (BUILD_DOCUMENTATION)
-  message(STATUS "Generating documentation.")
+  message(STATUS "Adding doxygen documentation.")
+  set(PER_HAVE_DOXYGEN "yes")        # for header prConfig.h
+  set(PER_HAVE_DOXYGEN_FOUND "yes")  # for PER-third-party.txt
   add_subdirectory(doc)
-else()
+else(BUILD_DOCUMENTATION)
   message(STATUS "Skiping documentation.")
-endif()
+endif(BUILD_DOCUMENTATION)
+
 
 # ----------------------------------------------------------------------------
 # Solution folders:

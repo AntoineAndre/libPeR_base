@@ -2,7 +2,7 @@ find_package(Doxygen)
 if(NOT DOXYGEN_FOUND)
     message("Doxygen not found, the documentation will not be generated.")
 else()
-   configure_file(Doxyfile.conf Doxyfile)
+   configure_file(config-doxygen.in Doxyfile)
 
    set(DOXYGEN_INPUT ${CMAKE_BINARY_DIR}/doc/Doxyfile)
    set(DOXYGEN_OUTPUT ${APIDOC_DIR}/html/index.html)
