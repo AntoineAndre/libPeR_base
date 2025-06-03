@@ -34,28 +34,18 @@ var NAVTREE =
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"CartesianPolynomial2FisheyeOpenCV_8cpp.html",
-"classprIcosahedronSamples.html#a5a79ebba7480a1ed0e328f0192a1e344",
-"classprRegularlySampledCPImage.html#a0fe0e848212641791c66076eae0eff50",
-"pr2DPointVec_8h.html",
-"prcommon_8h.html#a4fb40571c70b77c0740d8c5a35f4a475"
+"annotated.html",
+"classprEquirectangularXML.html#a44ce93e429c4fcb3e4bbe93dafb6cd63",
+"classprIntensity.html#acadc2cf44a9c364113c461a09f563478",
+"classprParaboloidXML.html#a44ce93e429c4fcb3e4bbe93dafb6cd63",
+"classprPolyCart.html#a2e6d80287e2ca4f2bfc5dea93c614c2e",
+"classprStereoModel.html#a27f1392e5b5660cfcdb5a96eba7c065f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

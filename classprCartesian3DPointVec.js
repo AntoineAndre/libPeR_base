@@ -14,5 +14,7 @@ var classprCartesian3DPointVec =
     [ "set_Z", "classprCartesian3DPointVec.html#a65b046a80ec0e0a5f0678d7be47506b2", null ],
     [ "setPoint", "classprCartesian3DPointVec.html#a1946c034feadbe92dab33945f7f9d7af", null ],
     [ "setVector", "classprCartesian3DPointVec.html#aceed16e58e2d7609cdd28213cbc834fc", null ],
-    [ "toEuclidean", "classprCartesian3DPointVec.html#ab40ba872e41ca08deb7b679a2676b921", null ]
+    [ "size", "classprCartesian3DPointVec.html#a15b5c7f647b14f5e7b74dba2d6156d5d", null ],
+    [ "toEuclidean", "classprCartesian3DPointVec.html#ab40ba872e41ca08deb7b679a2676b921", null ],
+    [ "p", "classprCartesian3DPointVec.html#a8cdca119a0ef1a254d142ec893913457", null ]
 ];

@@ -42,6 +42,7 @@ var classprPointFeature =
     [ "setWorldCoordinates", "classprPointFeature.html#ae3dd6e3972b850f50ccf4579f79ad17b", null ],
     [ "setWorldCoordinates", "classprPointFeature.html#a36e54d7cf45f2b2efc721ff8267e2b7b", null ],
     [ "toDouble", "classprPointFeature.html#acd0690aaaefc833f94e46726619a4c07", null ],
+    [ "doubleFeature", "classprPointFeature.html#a4f929f8e3a36c06fe0fe6cd89099f6e4", null ],
     [ "ix", "classprPointFeature.html#abf75cb99acc3cdbaa482326a255a2a6a", null ],
     [ "sX", "classprPointFeature.html#ac1c567591b6457b7c2f735c38ce48aa4", null ],
     [ "u", "classprPointFeature.html#ae26e13075898a776e309c5bc17d544a1", null ],

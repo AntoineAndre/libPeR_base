@@ -1,6 +1,0 @@
-<map id="prStereoModel" name="prStereoModel">
-<area shape="rect" id="Node000001" title=" " alt="" coords="6,93,123,119"/>
-<area shape="rect" id="Node000002" href="$classprSensorModel.html" title=" " alt="" coords="5,5,124,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,45,65,55,66,93,61,93,59,55,60,44"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="67,45,67,93,62,93,62,45"/>
-</map>

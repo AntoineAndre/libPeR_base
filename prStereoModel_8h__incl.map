@@ -1,9 +1,0 @@
-<map id="libPeR_base/modules/core/include/per/core/prStereoModel.h" name="libPeR_base/modules/core/include/per/core/prStereoModel.h">
-<area shape="rect" id="Node000001" title="Header file for the prStereoModel class." alt="" coords="155,5,318,60"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,135,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,62,106,104,103,99,185,58"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="159,108,315,133"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,60,239,94,234,94,234,60"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="339,108,556,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="302,58,408,100,406,105,300,63"/>
-</map>

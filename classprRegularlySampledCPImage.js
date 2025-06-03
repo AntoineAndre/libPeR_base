@@ -4,6 +4,7 @@ var classprRegularlySampledCPImage =
     [ "~prRegularlySampledCPImage", "classprRegularlySampledCPImage.html#a85a72adcc7af106af049d93eacb1a70a", null ],
     [ "buildFrom", "classprRegularlySampledCPImage.html#a8f110d90baae0c46834af750c9a0acf6", null ],
     [ "changeSampleFrame", "classprRegularlySampledCPImage.html#a1a3b34a5d6ef27e5bcf67720cd01dbf2", null ],
+    [ "getNbSamples", "classprRegularlySampledCPImage.html#a52748fbf053dd97f8f972f4a2258d259", null ],
     [ "getRawSample", "classprRegularlySampledCPImage.html#af0e603ac6f643057997d34f9f1082432", null ],
     [ "getSample", "classprRegularlySampledCPImage.html#a0fe0e848212641791c66076eae0eff50", null ],
     [ "getSample", "classprRegularlySampledCPImage.html#ab70c1fa85f97a9126490bddff5e65765", null ],
@@ -13,7 +14,15 @@ var classprRegularlySampledCPImage =
     [ "initializeGrid", "classprRegularlySampledCPImage.html#ae6709554b98a4b2bd43278d7cd18decc", null ],
     [ "operator=", "classprRegularlySampledCPImage.html#a9d33f8f98edda3171f4a327c8ef3e241", null ],
     [ "reset", "classprRegularlySampledCPImage.html#a371601793c7d2e177162cf420174c1b9", null ],
+    [ "setInterpType", "classprRegularlySampledCPImage.html#aedb0e6193cd6cd8e47989b6ca4b71894", null ],
+    [ "toAbsZN", "classprRegularlySampledCPImage.html#a6b0e726cecd93da7e6cef5c5cd4fcfb4", null ],
     [ "toImage", "classprRegularlySampledCPImage.html#a19eb19753bd7da565bb87e374edd651b", null ],
+    [ "bitmap", "classprRegularlySampledCPImage.html#a3ddfd03571ae3f640332524a08deb98c", null ],
+    [ "bitmapf", "classprRegularlySampledCPImage.html#acd9a86242f822adad7231039e0dd2d69", null ],
+    [ "ge", "classprRegularlySampledCPImage.html#a223f52c36f9aef7a21969574d7a4e663", null ],
     [ "height", "classprRegularlySampledCPImage.html#afb844c6afbd0be68b176c6544dbbc593", null ],
+    [ "inttyp", "classprRegularlySampledCPImage.html#a7e1506bed9f97e9a2a5d4727c452efb0", null ],
+    [ "isBitmapfSet", "classprRegularlySampledCPImage.html#a64662681f9fae2f98749f1571da3aa51", null ],
+    [ "nbSamples", "classprRegularlySampledCPImage.html#ad6797fd0acff4ee6ea08f4993119023a", null ],
     [ "width", "classprRegularlySampledCPImage.html#a96dc86ec2935aed8f54096426b2b0250", null ]
 ];

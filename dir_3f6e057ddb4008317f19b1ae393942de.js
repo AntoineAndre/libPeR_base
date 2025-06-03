@@ -1,4 +1,0 @@
-var dir_3f6e057ddb4008317f19b1ae393942de =
-[
-    [ "per", "dir_557622be7ce7c292e9c154603b970991.html", "dir_557622be7ce7c292e9c154603b970991" ]
-];

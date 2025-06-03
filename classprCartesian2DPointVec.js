@@ -14,5 +14,6 @@ var classprCartesian2DPointVec =
     [ "setPoint", "classprCartesian2DPointVec.html#a3df43fbac743295a3984fa0287b8df1a", null ],
     [ "setVector", "classprCartesian2DPointVec.html#af695f24e3831cb2d939cb20765141b5e", null ],
     [ "size", "classprCartesian2DPointVec.html#a5fabe8900acc51b740f115286313897e", null ],
-    [ "toEuclidean", "classprCartesian2DPointVec.html#a297f764db4299382bd8b31b3fb847c72", null ]
+    [ "toEuclidean", "classprCartesian2DPointVec.html#a297f764db4299382bd8b31b3fb847c72", null ],
+    [ "p", "classprCartesian2DPointVec.html#a8cdca119a0ef1a254d142ec893913457", null ]
 ];

@@ -1,7 +1,0 @@
-<map id="prIntensity&lt; Ts, Tcam &gt;" name="prIntensity&lt; Ts, Tcam &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="23,93,200,119"/>
-<area shape="rect" id="Node000002" href="$classprFeature.html" title=" " alt="" coords="5,5,89,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,40,105,91,100,94,62,43"/>
-<area shape="rect" id="Node000003" href="$classprNeighborhood.html" title="Class for the storage of images neighbors lying on the sphere." alt="" coords="113,5,240,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,43,123,94,118,91,157,40"/>
-</map>

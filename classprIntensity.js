@@ -20,6 +20,7 @@ var classprIntensity =
     [ "toDouble", "classprIntensity.html#aaa8e0eead10e00cb59f40ccaeb1e07da", null ],
     [ "updateFrom", "classprIntensity.html#a6d8dd5df948bdb89e169f97728cddd37", null ],
     [ "camera", "classprIntensity.html#acadc2cf44a9c364113c461a09f563478", null ],
+    [ "doubleFeature", "classprIntensity.html#a4f929f8e3a36c06fe0fe6cd89099f6e4", null ],
     [ "indexU", "classprIntensity.html#a33fe34dab0e90bae87f194813e66b5cd", null ],
     [ "indexV", "classprIntensity.html#a2d28d7d78bea39853eb3fb2d5b0bc7bf", null ],
     [ "IXs", "classprIntensity.html#ad4ac311c30088ee98e6f0a0d2b84b612", null ],
