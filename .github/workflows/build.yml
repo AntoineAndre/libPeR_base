@@ -1,0 +1,49 @@
+name: CI of LibPeR
+
+on:
+  push:
+    branches:
+      - main  # Set a branch name to trigger deployment
+  pull_request:
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        build-type: [Debug]
+        compiler: [gcc]
+    runs-on: ${{ matrix.os }}
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: recursive
+    - name: Install dependencies Linux 
+      uses: jrl-umi3218/github-actions/install-dependencies@master
+      with:
+        compiler: ${{ matrix.compiler }}
+        build-type: ${{ matrix.build-type }}
+        ubuntu: |
+          apt: cmake libeigen3-dev libgtest-dev wget unzip libqhull-dev doxygen doxygen-latex libopencv-dev libvisp-dev graphviz
+        macos: |
+          brew: autoconf automake cmake eigen libtool libmatio opencv fftw
+    
+    - name: Build and test
+      uses: jrl-umi3218/github-actions/build-cmake-project@master
+      with:
+        compiler: ${{ matrix.compiler }}
+        build-type: ${{ matrix.build-type }}
+        options: '-DBUILD_EXAMPLES:BOOL=OFF'
+    
+    - name: build doc
+      run: |
+        cd build
+        make html-doc
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v4
+      if: github.ref == 'refs/heads/main' && matrix.os == 'ubuntu-latest'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build/html
