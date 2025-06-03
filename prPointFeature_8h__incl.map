@@ -1,0 +1,13 @@
+<map id="libPeR_base/modules/core/include/per/core/prPointFeature.h" name="libPeR_base/modules/core/include/per/core/prPointFeature.h">
+<area shape="rect" id="Node000001" title="Header file for the prPointFeature class." alt="" coords="406,5,569,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,127,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="406,53,136,108,135,103,405,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="151,108,359,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="417,63,300,106,298,101,416,58"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="383,108,591,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="490,60,490,94,485,94,485,60"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="616,108,833,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="561,58,681,101,679,106,559,63"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="857,108,1000,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="569,47,857,103,856,108,568,52"/>
+</map>

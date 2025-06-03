@@ -1,0 +1,13 @@
+<map id="prRegularlySampledCSImageDepth&lt; TImage &gt;" name="prRegularlySampledCSImageDepth&lt; TImage &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,257,217,297"/>
+<area shape="rect" id="Node000002" href="$classprRegularlySampledCSImage.html" title=" " alt="" coords="5,168,217,208"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,222,114,257,109,257,109,222"/>
+<area shape="rect" id="Node000003" href="$classprAcquisitionModel.html" title=" " alt="" coords="19,80,204,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="106,119,107,168,101,168,101,119"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="122,119,121,168,116,168,117,119"/>
+<area shape="rect" id="Node000004" href="$classprRegularlySampledCSImage.html" title=" " alt="" coords="229,80,479,105"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="312,113,161,170,159,165,310,108"/>
+<area shape="rect" id="Node000005" href="$classprAcquisitionModel.html" title=" " alt="" coords="261,5,447,31"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="348,44,350,80,344,80,343,45"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="365,45,364,80,358,80,360,44"/>
+</map>

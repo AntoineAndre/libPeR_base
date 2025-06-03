@@ -1,0 +1,23 @@
+<map id="prXML" name="prXML">
+<area shape="rect" id="Node000001" title=" " alt="" coords="225,79,287,104"/>
+<area shape="rect" id="Node000003" href="$classprIcosahedronSamples.html" title="Class for reading and loading samples coordinates coming from a subdivided icosahedron." alt="" coords="13,152,184,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="219,112,125,154,123,149,217,107"/>
+<area shape="rect" id="Node000004" href="$classprPoseXML.html" title=" " alt="" coords="209,152,303,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="259,118,259,152,253,152,253,118"/>
+<area shape="rect" id="Node000005" href="$classprSensorModelXML.html" title=" " alt="" coords="328,152,475,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="293,108,379,149,376,154,290,112"/>
+<area shape="rect" id="Node000002" href="$classprIo.html" title=" " alt="" coords="233,5,279,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,44,259,79,253,79,253,44"/>
+<area shape="rect" id="Node000006" href="$classprCameraModelXML.html" title=" " alt="" coords="236,225,391,251"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="378,188,329,227,326,223,375,184"/>
+<area shape="rect" id="Node000011" href="$classprStereoModelXML.html" title=" " alt="" coords="415,225,561,251"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="427,184,476,223,472,227,424,188"/>
+<area shape="rect" id="Node000007" href="$classprEquirectangularXML.html" title=" " alt="" coords="5,299,171,324"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="265,257,125,301,124,296,263,252"/>
+<area shape="rect" id="Node000008" href="$classprOmniXML.html" title=" " alt="" coords="195,299,293,324"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="294,263,257,300,253,297,291,259"/>
+<area shape="rect" id="Node000009" href="$classprParaboloidXML.html" title=" " alt="" coords="317,299,448,324"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="336,259,373,297,370,300,332,263"/>
+<area shape="rect" id="Node000010" href="$classprPerspectiveXML.html" title=" " alt="" coords="472,299,611,324"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="364,252,505,296,504,301,362,257"/>
+</map>

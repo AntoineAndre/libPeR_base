@@ -1,0 +1,17 @@
+<map id="prIcosahedronSamples" name="prIcosahedronSamples">
+<area shape="rect" id="Node000001" title="Class for reading and loading samples coordinates coming from a subdivided icosahedron." alt="" coords="21,392,191,417"/>
+<area shape="rect" id="Node000002" href="$classprXML.html" title=" " alt="" coords="5,304,68,329"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="57,339,98,390,94,393,53,342"/>
+<area shape="rect" id="Node000003" href="$classprIo.html" title=" " alt="" coords="13,229,60,255"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="39,269,39,304,34,304,34,269"/>
+<area shape="rect" id="Node000004" href="$classprCartesian3DPointVec.html" title=" " alt="" coords="93,304,263,329"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="162,342,118,393,114,390,158,338"/>
+<area shape="rect" id="Node000005" href="$classpr3DPointVec.html" title=" " alt="" coords="123,229,233,255"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="181,269,181,304,175,304,175,269"/>
+<area shape="rect" id="Node000006" href="$classprPointVec.html" title=" " alt="" coords="133,155,223,180"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="181,194,181,229,175,229,175,194"/>
+<area shape="rect" id="Node000007" href="$classprGeometricElement.html" title=" " alt="" coords="99,80,257,105"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="181,120,181,154,175,154,175,120"/>
+<area shape="rect" id="Node000008" href="$classprPhysicalElement.html" title=" " alt="" coords="107,5,249,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="181,45,181,80,175,80,175,45"/>
+</map>

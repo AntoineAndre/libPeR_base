@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classprFeature.html" title=" " alt="" coords="5,70,89,95"/>
+<area shape="rect" id="Node000001" href="$classprIntensity.html" title=" " alt="" coords="137,5,329,45"/>
+<area shape="poly" id="edge6_Node000000_Node000001" title=" " alt="" coords="102,63,167,43,169,48,103,68"/>
+<area shape="rect" id="Node000002" href="$classprIntensity.html" title=" " alt="" coords="145,70,322,95"/>
+<area shape="poly" id="edge7_Node000000_Node000002" title=" " alt="" coords="103,80,145,80,145,85,103,85"/>
+<area shape="rect" id="Node000006" href="$classprPointFeature.html" title=" " alt="" coords="175,119,292,145"/>
+<area shape="poly" id="edge11_Node000000_Node000006" title=" " alt="" coords="103,95,138,104,185,117,184,122,137,109,102,100"/>
+<area shape="rect" id="Node000003" href="$classprGaussianMixtureSample.html" title=" " alt="" coords="377,63,572,103"/>
+<area shape="poly" id="edge8_Node000002_Node000003" title=" " alt="" coords="336,80,377,80,377,85,336,85"/>
+<area shape="rect" id="Node000004" href="$classprPhotometricGMS.html" title=" " alt="" coords="620,41,807,66"/>
+<area shape="poly" id="edge9_Node000003_Node000004" title=" " alt="" coords="585,66,619,62,620,67,586,72"/>
+<area shape="rect" id="Node000005" href="$classprPhotometricnnGMS.html" title=" " alt="" coords="633,91,793,131"/>
+<area shape="poly" id="edge10_Node000003_Node000005" title=" " alt="" coords="586,93,634,99,633,104,585,98"/>
+</map>

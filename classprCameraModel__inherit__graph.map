@@ -1,0 +1,21 @@
+<map id="prCameraModel" name="prCameraModel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="172,179,299,204"/>
+<area shape="rect" id="Node000003" href="$classprEquirectangular.html" title=" " alt="" coords="357,5,495,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="246,165,285,102,312,69,345,40,366,28,369,33,348,44,316,72,289,105,251,168"/>
+<area shape="rect" id="Node000004" href="$classprFisheyeEquidistant.html" title=" " alt="" coords="347,55,505,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="254,167,294,127,345,89,371,78,373,82,348,94,297,131,258,171"/>
+<area shape="rect" id="Node000005" href="$classprFisheyeEquisolid.html" title=" " alt="" coords="354,104,498,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="273,170,346,138,379,127,381,132,348,143,275,175"/>
+<area shape="rect" id="Node000006" href="$classprOmni.html" title=" " alt="" coords="391,153,461,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="312,179,390,168,391,173,313,184"/>
+<area shape="rect" id="Node000007" href="$classprOrthographic.html" title=" " alt="" coords="367,203,485,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="313,198,367,205,366,211,312,204"/>
+<area shape="rect" id="Node000008" href="$classprParaboloid.html" title=" " alt="" coords="375,252,477,277"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="276,207,348,238,381,249,379,254,346,243,274,212"/>
+<area shape="rect" id="Node000009" href="$classprPerspective.html" title=" " alt="" coords="371,301,481,327"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="258,212,298,251,348,288,373,299,371,304,345,292,294,255,255,216"/>
+<area shape="rect" id="Node000010" href="$classprPolyCart.html" title="Class for dealing with the projection functions of a camera modeled with the polynomial Cartesian mod..." alt="" coords="381,351,471,376"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="251,215,289,276,316,309,348,337,381,353,379,357,345,342,312,313,285,280,246,218"/>
+<area shape="rect" id="Node000002" href="$classprSensorModel.html" title=" " alt="" coords="5,179,124,204"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,189,172,189,172,194,138,194"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="libPeR_base/modules/acquisition_representation/include/per/acquisition_representation/prRegularlySampledCSImage.h" name="libPeR_base/modules/acquisition_representation/include/per/acquisition_representation/prRegularlySampledCSImage.h">
+<area shape="rect" id="Node000001" title="Header file for the prRegularlySampledCSImage class." alt="" coords="721,5,981,89"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,137,189,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="721,69,197,138,196,133,720,63"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="213,137,421,163"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="721,76,392,137,391,132,720,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="445,137,619,163"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="722,92,582,136,580,131,720,87"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="643,137,749,163"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="789,92,726,132,724,128,786,87"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="773,137,928,163"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="853,89,853,124,848,124,848,89"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="952,137,1107,163"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="925,87,998,128,996,133,922,92"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1131,137,1338,163"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="981,80,1178,131,1177,136,980,85"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1362,137,1465,163"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="981,69,1349,134,1348,140,980,74"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1489,137,1612,163"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="981,64,1476,134,1475,140,981,69"/>
+</map>

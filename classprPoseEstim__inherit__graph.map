@@ -1,0 +1,11 @@
+<map id="prPoseEstim" name="prPoseEstim">
+<area shape="rect" id="Node000001" title=" " alt="" coords="141,79,243,104"/>
+<area shape="rect" id="Node000003" href="$classprCameraPoseEstim.html" title=" " alt="" coords="109,152,275,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,118,195,152,189,152,189,118"/>
+<area shape="rect" id="Node000002" href="$classprModelsParametersEstimation.html" title=" " alt="" coords="79,5,305,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,44,195,79,189,79,189,44"/>
+<area shape="rect" id="Node000004" href="$classprPosePerspectiveEstim.html" title=" " alt="" coords="5,240,184,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="162,203,118,242,114,238,159,199"/>
+<area shape="rect" id="Node000005" href="$classprPoseSphericalEstim.html" title=" " alt="" coords="208,240,371,280"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="225,199,270,238,266,242,222,203"/>
+</map>

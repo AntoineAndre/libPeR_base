@@ -1,0 +1,26 @@
+var classprVoronoiIcosahedronImageMapping =
+[
+    [ "prVoronoiIcosahedronImageMapping", "classprVoronoiIcosahedronImageMapping.html#ad2a51951d8de0482edbe57a101154aa3", null ],
+    [ "~prVoronoiIcosahedronImageMapping", "classprVoronoiIcosahedronImageMapping.html#aed9e74f5aa4984b03551f24588302bd4", null ],
+    [ "buildFromEquiRect", "classprVoronoiIcosahedronImageMapping.html#ab0f763411d31a7005c4dcef1fc7bf284", null ],
+    [ "buildFromEquiRect", "classprVoronoiIcosahedronImageMapping.html#a29a8f1cc52bd34526176ac5a6e1225fc", null ],
+    [ "buildFromTwinOmni", "classprVoronoiIcosahedronImageMapping.html#a61102e086f03865b2f3ed37b9c250864", null ],
+    [ "buildFromTwinOmni", "classprVoronoiIcosahedronImageMapping.html#a9541c8e86629ff91b3c2cf78b3b36982", null ],
+    [ "createImageCellsMap", "classprVoronoiIcosahedronImageMapping.html#a94ca3b02dc58504822728f4336b73c70", null ],
+    [ "createImageCellsMap", "classprVoronoiIcosahedronImageMapping.html#a2c21877c0bbe2d41924e068b3ce36185", null ],
+    [ "loadSphere", "classprVoronoiIcosahedronImageMapping.html#af2b86c9f19fd69fa1d509d5210c185d6", null ],
+    [ "toImage", "classprVoronoiIcosahedronImageMapping.html#a0287830b6a69222054824a807029de9c", null ],
+    [ "toImage", "classprVoronoiIcosahedronImageMapping.html#abfdc147de2a5f804438adc6b9bc68fdd", null ],
+    [ "toImageF", "classprVoronoiIcosahedronImageMapping.html#ab97f02ccde7856898f54daa2c66a9317", null ],
+    [ "toImageRotate", "classprVoronoiIcosahedronImageMapping.html#a47f75df8adddce88ef4b702d4901ea87", null ],
+    [ "toTwinOmni", "classprVoronoiIcosahedronImageMapping.html#ad9fafc4ab98fbb04f706c592dce59410", null ],
+    [ "centerCoords", "classprVoronoiIcosahedronImageMapping.html#a07fd8589cc790dbad1e06c0b4045f836", null ],
+    [ "imHeight", "classprVoronoiIcosahedronImageMapping.html#a4f93a536129aca9de58ec9f9df5dcd69", null ],
+    [ "imWidth", "classprVoronoiIcosahedronImageMapping.html#a09f2fc5aa5f2b0a505b0f3a1e62b839b", null ],
+    [ "isCellMapInit", "classprVoronoiIcosahedronImageMapping.html#a46acca722ceecd9e370a7fcbac7362f0", null ],
+    [ "sumTotColors", "classprVoronoiIcosahedronImageMapping.html#a48581670e435217472ea2cf83fc1d7d8", null ],
+    [ "vecTotVoroContours", "classprVoronoiIcosahedronImageMapping.html#ad11cafe45442d94b0467236ec57320a3", null ],
+    [ "vecVoroContours", "classprVoronoiIcosahedronImageMapping.html#ad9ea5b34c5bc66d3ca9aa3a96d56bfb0", null ],
+    [ "verticeHexaVec", "classprVoronoiIcosahedronImageMapping.html#af32973d20760971e1ce496df9f88cb59", null ],
+    [ "voroSamples", "classprVoronoiIcosahedronImageMapping.html#aed4cce1e4c16af7805bc343213b34df1", null ]
+];

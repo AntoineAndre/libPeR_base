@@ -1,0 +1,16 @@
+<map id="prFeature" name="prFeature">
+<area shape="rect" id="Node000001" title=" " alt="" coords="182,5,266,31"/>
+<area shape="rect" id="Node000002" href="$classprIntensity.html" title=" " alt="" coords="5,168,197,208"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,39,150,57,125,82,114,103,107,126,103,168,98,168,102,125,109,101,121,78,147,52,178,34"/>
+<area shape="rect" id="Node000003" href="$classprIntensity.html" title=" " alt="" coords="135,80,313,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="227,45,227,80,221,80,221,45"/>
+<area shape="rect" id="Node000007" href="$classprPointFeature.html" title=" " alt="" coords="337,80,455,105"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="265,34,370,78,368,82,263,38"/>
+<area shape="poly" id="edge6_Node000003_Node000002" title=" " alt="" coords="170,113,139,131,123,149,112,169,107,166,119,146,136,127,168,108"/>
+<area shape="rect" id="Node000004" href="$classprGaussianMixtureSample.html" title=" " alt="" coords="224,168,419,208"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="280,109,305,128,316,147,322,167,317,168,311,149,301,131,277,113"/>
+<area shape="rect" id="Node000005" href="$classprPhotometricGMS.html" title=" " alt="" coords="129,265,316,290"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="291,219,238,266,234,262,288,215"/>
+<area shape="rect" id="Node000006" href="$classprPhotometricnnGMS.html" title=" " alt="" coords="340,257,500,297"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="355,215,400,255,397,259,351,219"/>
+</map>

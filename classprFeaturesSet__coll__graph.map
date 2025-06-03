@@ -1,0 +1,16 @@
+<map id="prFeaturesSet&lt; Tsample, Tfeat, Tacquisition, Tacqelemtype &gt;" name="prFeaturesSet&lt; Tsample, Tfeat, Tacquisition, Tacqelemtype &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="70,359,255,413"/>
+<area shape="rect" id="Node000002" href="$classprAcquisitionModel.html" title=" " alt="" coords="5,256,152,296"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,305,144,357,140,360,99,308"/>
+<area shape="rect" id="Node000003" href="$classprGeometricElement.html" title=" " alt="" coords="104,80,261,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,113,90,135,72,151,58,169,52,191,54,213,70,255,65,257,48,214,47,190,54,167,69,147,87,131,129,108"/>
+<area shape="rect" id="Node000005" href="$classprAcquisitionModel.html" title=" " alt="" coords="90,168,275,193"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="185,119,185,167,180,167,180,119"/>
+<area shape="rect" id="Node000006" href="$classprAcquisitionModel.html" title=" " alt="" coords="176,256,323,296"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="224,109,260,133,277,149,290,167,303,199,302,215,296,233,278,257,274,254,291,231,297,214,298,200,286,169,273,152,257,137,221,114"/>
+<area shape="rect" id="Node000004" href="$classprPhysicalElement.html" title=" " alt="" coords="111,5,254,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="185,45,185,80,180,80,180,45"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="105,202,85,219,78,237,78,256,72,256,73,236,80,216,102,197"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="204,202,215,216,241,254,236,257,211,219,200,205"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="228,308,186,360,182,357,224,305"/>
+</map>
