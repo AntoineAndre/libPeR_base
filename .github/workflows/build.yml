@@ -46,4 +46,4 @@ jobs:
       if: github.ref == 'refs/heads/main' && matrix.os == 'ubuntu-latest'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build/html
+        publish_dir: ./build/doc/html
