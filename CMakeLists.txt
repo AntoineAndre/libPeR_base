@@ -500,7 +500,7 @@ include(cmake/PERGenerateHeaders.cmake)
 #   target_link_libraries(<target> ${PER_LIBRARIES})
 include(cmake/PERGenerateConfig.cmake)
 
-set(LibPeR_DEPENDENCIES "libopencv-dev libvisp-dev")
+set(LibPeR_DEPENDENCIES "libopencv-dev,libvisp-dev")
 
 set(CPACK_PACKAGE_NAME LibPeR)
 set(CPACK_PACKAGE_VENDOR MIS-JRL)
@@ -517,6 +517,12 @@ set(CPACK_DEBIAN_PACKAGE_DEPENDS ${LibPeR_DEPENDENCIES})
 set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
 set(CPACK_PACKAGE_FILE_NAME LibPeR-${CPACK_PACKAGE_VERSION_MAJOR}.${CPACK_PACKAGE_VERSION_MINOR}.${CPACK_PACKAGE_VERSION_PATCH}-${LSB_RELEASE_ID_SHORT}-${LSB_RELEASE_VERSION_SHORT})
 set(CPACK_GENERATOR DEB)
+set(
+    CPACK_INSTALL_DEFAULT_DIRECTORY_PERMISSIONS
+    OWNER_READ OWNER_WRITE OWNER_EXECUTE
+    GROUP_READ GROUP_EXECUTE
+    WORLD_READ WORLD_EXECUTE
+)
 include(CPack)
 
 #----------------------------------------------------------------------

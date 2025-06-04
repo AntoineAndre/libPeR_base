@@ -4,6 +4,16 @@
 
 ## Get started
 
+```bash
+curl -1sLf \
+  'https://dl.cloudsmith.io/public/perception/libper_base/cfg/setup/bash.deb.sh' \
+  | sudo bash
+```
+
+```bash
+sudo apt install libper
+```
+
 ### Installation
 
 This library relies on the following dependencies:
